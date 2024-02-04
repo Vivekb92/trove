@@ -1,0 +1,146 @@
+/* CSS Document */
+.ni-wrapper {   
+	width: 99%;
+    margin: 0 auto;
+	
+	
+}
+.ni-inner-wrapper {
+	padding-top:20px;
+}
+.ni-wrapper .ni-content { background:#FFF; width:96%; padding:20px;  }
+.ni-wrapper .ni-email-data-table-list {
+	border: 1px solid #2cc185;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.ni-content  .ni-email-data-table-list tr {
+    border: 1px solid #2cc185;
+    padding: 5px;
+ }
+ .ni-content  .ni-email-data-table-list th, .ni-email-data-table-list td {
+    padding: 10px;
+    text-align: center;
+  }
+.ni-content  .ni-email-data-table-list th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+	background-color: #2cc185;
+    color: white;
+  }
+.ni-content  .ni-email-data-table-list tbody tr:nth-child(odd) {
+	background-color: #FDFFE5;
+}
+.ni-content  .ni-email-data-table-list tbody tr:nth-child(even) {
+	background-color: #E9FEFE;
+	}
+.ni-content  .ni-email-data-table-list tbody tr:hover {
+	background-color: #FFF;
+}  
+.ni_email_report_btn { 
+	background-color: #2cc185; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 12px;
+}
+ @media screen and (max-width: 865px) {
+
+    .ni-content  .ni-email-data-table-list  {
+      border: 0;
+    }
+
+   .ni-content  .ni-email-data-table-list thead {
+      display: none;
+    }
+
+  .ni-content  .ni-email-data-table-list  tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .ni-content  .ni-email-data-table-list  td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    .ni-content  .ni-email-data-table-list  td:last-child {
+      border-bottom: 0;
+    }
+
+   .ni-content  .ni-email-data-table-list  td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+
+
+/*Form CSS*/
+
+.search_form{ 
+	border:1px solid #2cc185; 
+	width:800px;
+	margin-bottom:20px;
+	}
+.search_form .search_form_header h3{ 
+	background-color:#2cc185; 
+	color:#fff; margin:0; 
+	padding:7px 20px 7px 10px; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:15px; 
+	font-weight:normal;
+}
+
+.search_form .search_form_body{
+	padding-top:15px;
+	}
+
+.search_form .search_field{	
+	width:49%;
+	float:left;
+	margin-bottom:15px;
+	/*border:1px solid #0073aa;*/
+	
+}
+
+.search_form .search_field_label{float:left; width:36%; padding-left:10px; padding-top:3px;}
+.search_form .search_field_input{float:left; width:60%;}
+.search_form .search_field_input input[type="text"]{float:left; width:100%; padding:5px 4px;}
+.search_form .search_field_input select{float:left; width:100%;}
+
+.search_form .cleafix{ clear:both;}
+
+.search_form .search_field_action{ padding-left:10px; margin-bottom:10px;}
+@media (min-width:555px) and (max-width:1007px){
+	.search_form{
+		width:100%;
+	}
+}
+
+@media (min-width:120px) and (max-width:554px){
+	.search_form{
+		width:100%;
+	}	
+	.search_form .search_field{
+		width:100%;
+	}
+	
+	.search_form .search_field_input input[type="text"], .search_form .search_field_input select{width:95%;}
+}
+ 

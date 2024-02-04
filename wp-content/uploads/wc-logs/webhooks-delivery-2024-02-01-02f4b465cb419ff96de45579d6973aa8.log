@@ -1,0 +1,52 @@
+2024-02-01T14:14:28+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 91289dcf27ee604aa9cd1ba48c575686
+            [Date] => Feb 1, 2024 @ 14:14
+            [URL] => https://addorders-uhsyehj7fq-uc.a.run.app
+            [Duration] => 1.03626
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.5.2 Hookshot (WordPress/6.4.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pheuna.com/trove/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => slNw2SCOvF9JzVrgzbq6mQc8o+RNcl42Q4pr9VyY2X4=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 91289dcf27ee604aa9cd1ba48c575686
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [x-cloud-trace-context] => cc75dfc56222aaf7ba8bf864acf35ea5;o=1
+                                    [date] => Thu, 01 Feb 2024 14:14:28 GMT
+                                    [server] => Google Frontend
+                                    [content-length] => 26
+                                    [alt-svc] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

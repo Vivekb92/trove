@@ -1,0 +1,156 @@
+2024-02-02T14:23:13+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9873471f538b917ae416f49ef7af234b
+            [Date] => Feb 2, 2024 @ 14:23
+            [URL] => https://addorders-uhsyehj7fq-uc.a.run.app
+            [Duration] => 3.13741
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.5.2 Hookshot (WordPress/6.4.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pheuna.com/trove/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => V7SJGWdFahJJwZspqBsttkY2YWGvaw+oDYnXKq6d0XA=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9873471f538b917ae416f49ef7af234b
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [x-cloud-trace-context] => 5fb314f5d3bf43d72495890a3cec3210;o=1
+                                    [date] => Fri, 02 Feb 2024 14:23:13 GMT
+                                    [server] => Google Frontend
+                                    [content-length] => 26
+                                    [alt-svc] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-02-02T14:25:02+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => b3452d3a95eb8abe69ec207775a6e107
+            [Date] => Feb 2, 2024 @ 14:25
+            [URL] => https://addorders-uhsyehj7fq-uc.a.run.app
+            [Duration] => 1.01266
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.5.2 Hookshot (WordPress/6.4.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pheuna.com/trove/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => md8UtsfLmK9JfW7Gw5snsqMoDgFtBA0AR2uPnlkFcX0=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => b3452d3a95eb8abe69ec207775a6e107
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [x-cloud-trace-context] => 7f00e14cafbcce73d60cf60470baf674;o=1
+                                    [date] => Fri, 02 Feb 2024 14:25:01 GMT
+                                    [server] => Google Frontend
+                                    [content-length] => 26
+                                    [alt-svc] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-02-02T14:26:18+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => d4d64ff37d0251e2a48c1975f79b66ee
+            [Date] => Feb 2, 2024 @ 14:26
+            [URL] => https://addorders-uhsyehj7fq-uc.a.run.app
+            [Duration] => 0.79466
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.5.2 Hookshot (WordPress/6.4.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://pheuna.com/trove/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 12jA5uz5KZLWHlCC7QH9kOu/BQDhgSCncfPzi9FFIhE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => d4d64ff37d0251e2a48c1975f79b66ee
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [x-cloud-trace-context] => af6ff9c9cedad79b0ef87ad58a6b746e;o=1
+                                    [date] => Fri, 02 Feb 2024 14:26:18 GMT
+                                    [server] => Google Frontend
+                                    [content-length] => 26
+                                    [alt-svc] => h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

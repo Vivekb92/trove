@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+
+.is-large.wc-block-cart, .wc-block-components-sidebar-layout {
+	margin: 8em !important;
+}
